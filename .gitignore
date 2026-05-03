@@ -1,0 +1,48 @@
+# Environment & Secrets — NEVER commit these
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs — generated at runtime, not source code
+logs/
+*.log
+
+# Raw data — often large binary files, not source code
+data/raw/
+data/processed/
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Prefect artifacts
+.prefect/

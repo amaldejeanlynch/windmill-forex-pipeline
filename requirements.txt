@@ -1,0 +1,22 @@
+# Core data
+pandas==2.2.3
+
+# Database
+SQLAlchemy==2.0.41
+psycopg2-binary==2.9.10
+
+# HTTP / OANDA API
+requests==2.32.3
+
+# Resilience
+tenacity==9.1.2
+
+# Config
+python-dotenv==1.1.0
+
+# Windmill SDK (get_variable in Windmill scripts; not used by run_local.py)
+wmill==1.694.0
+
+# Dev / testing
+pytest==8.3.5
+pytest-cov==6.1.0

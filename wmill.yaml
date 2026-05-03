@@ -1,0 +1,6 @@
+includes:
+  - "f/forex_pipeline/lib/**"
+  - "f/forex_pipeline/compute_work_list.py"
+  - "f/forex_pipeline/process_combo.py"
+excludes:
+  - "**/__init__.py"
